@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-@import "./assets/monument/stylesheet.css";
 
 @import "./node_modules/bootstrap/scss/bootstrap-reboot.scss";
 @import "./node_modules/bootstrap/scss/bootstrap-grid.scss";
@@ -14,7 +13,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: Monument Extended !important;
+  font-family: Monument Extended;
 }
 
 .header {
