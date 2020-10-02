@@ -37,3 +37,15 @@ h1, h2, h3 {
     margin-top: 2rem;
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .header {
+    img {
+      width: 50vw;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
