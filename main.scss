@@ -10,6 +10,11 @@ body {
   background: $blue;
   color: white;
   padding: 2rem;
+
+  a {
+    color: white;
+    text-decoration: underline;
+  }
 }
 
 h1, h2, h3 {
